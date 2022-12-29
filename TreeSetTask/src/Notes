@@ -1,0 +1,3 @@
+ The elements in TreeSet must be of a Comparable type. String and Wrapper classes are Comparable by default. To add user-defined objects in TreeSet, you need to implement the Comparable interface.
+ If we add an object of the class that is not implementing the Comparable interface, the ClassCast Exception is raised.
+Explanation: In the above program, it is required to implement a Comparable interface. It is because the TreeSet maintains the sorting order, and for doing the sorting the comparison of different objects that are being inserted in the TreeSet is must, which is accomplished by implementing the Comparable interface.
